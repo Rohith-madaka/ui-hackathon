@@ -1,0 +1,101 @@
+.sidebar {
+  width: 250px;
+  height: calc(100vh);
+  z-index: 10;
+  position: fixed;
+  border-right: 0.0625rem solid #323a46;
+  background-color: #191c24;
+}
+.navbar {
+  padding-right: 1.5rem;
+}
+
+.navbar-brand {
+  padding-left: 1.5rem;
+}
+
+.btn {
+  line-height: 0.5rem;
+}
+
+//.active {
+//  background-color: #0f1015;
+//}
+
+.main-pannel {
+  padding: 1.25rem  1.25rem  0.25rem calc(250px + 1.25rem);
+  height: calc(100vh - 56px);
+  background-color: #000000;
+  color:#6c7293;
+}
+.topbar{
+  background-color: #191c24;
+  .navbar-brand{
+    color: #ffffff !important;
+  }
+}
+
+h5 {
+  color: #ffffff;
+  margin: 0 0 1.5rem 0;
+}
+
+.bi-speedometer2 {
+  color: #8f5fe8;
+}
+
+.bi-journal-code {
+  color: #fc424a;
+}
+
+.topbar {
+  border-bottom: 0.0625rem solid #323a46;
+}
+
+.mr-4 {
+  margin-right: 1rem !important;
+}
+.ag-center-cols-container {
+  width: 100% !important;
+}
+.card {
+  background-color: #191c24;
+  padding: 1.75rem 1.5625rem;
+  max-width: 1200px;
+  color: #ffffff;
+}
+.form-control {
+  background-color: #191c24;
+  border: 1px solid #2c2e33;
+}
+
+.nav-link{
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+  display: flex;
+  align-items: center;
+  color: #6c7293;
+  border-radius: 0px 100px 100px 0px;
+  padding: 0.8rem 10px 0.8rem 1.188rem;
+
+
+}
+
+.nav-link.active {
+  background-color: #0f1015;
+  border-left: 3px solid #0090e7;
+}
+
+.menu-icon {
+  margin-right: 0.5rem;
+  font-size: 0.8125rem;
+  line-height: 1;
+  background: rgba(108, 114, 147, 0.2);
+  width: 31px;
+  height: 31px;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+}
+

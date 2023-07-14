@@ -1,0 +1,31 @@
+.side-panel {
+  height: 100vh;
+  padding: 32px;
+  overflow-y: auto;
+  direction: rtl;
+  background-color: #191c24 ;
+  color:#ffffff;
+  border-left: 0.0625rem solid #394150;
+}
+
+.sidePanelHeader {
+  font-size: 16px;
+}
+
+.side-panel-content,
+.side-panel-title {
+  margin-top: 24px;
+  direction: ltr;
+}
+
+.sliding-panel-container.active {
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  right: 0;
+}
+.panel-content {
+  width: 100%;
+  height: 100%;
+  pointer-events: all;
+}
