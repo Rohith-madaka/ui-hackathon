@@ -55,13 +55,13 @@ const ErrorDetails = () => {
     }
 
     const [rowData] = useState([
-        {make: "Toyota", model: "Celica", price: 35000},
-        {make: "Ford", model: "Mondeo", price: 32000},
-        {make: "Porsche", model: "Boxster", price: 72000, jiraId: 12}
+        {exceptionSummary: "Toyota", model: "Celica", price: 35000},
+        {exceptionSummary: "Ford", model: "Mondeo", price: 32000},
+        {exceptionSummary: "Porsche", model: "Boxster", price: 72000, jiraId: 12}
     ]);
 
     const [columnDefs] = useState([
-        { field: 'make' },
+        { field: 'exceptionSummary', headerName: 'Exception Summary' },
         { field: 'model' },
         { field: 'price' },
         {

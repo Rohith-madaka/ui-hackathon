@@ -55,9 +55,31 @@ h5 {
 .mr-4 {
   margin-right: 1rem !important;
 }
+
 .ag-center-cols-container {
   width: 100% !important;
 }
+
+.btn-primary {
+  background-color: #0090e7;
+}
+
+.ag-row {
+  color: #6c7293;
+  background-color: #191c24 !important;
+  border-color: #2c2e33;
+}
+.ag-header {
+  color: #6c7293 !important;
+  background-color: #191c24 !important;
+  border-color: #2c2e33;
+}
+.ag-root-wrapper {
+  color: #6c7293 !important;
+  background-color: #191c24 !important;
+  border: none;
+}
+
 .card {
   background-color: #191c24;
   padding: 1.75rem 1.5625rem;

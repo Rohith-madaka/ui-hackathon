@@ -1,4 +1,4 @@
-import {Navbar, Form, Button, Nav} from 'react-bootstrap';
+import {Navbar, Form, Nav} from 'react-bootstrap';
 const AppBar = () => {
     return (
         <Navbar data-bs-theme="dark" className='topbar'>
